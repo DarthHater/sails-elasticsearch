@@ -7,7 +7,7 @@ var log = new (require('captains-log'))();
 
 
 var TestRunner = require('waterline-adapter-tests');
-var Adapter = require('../../');
+var Adapter = require('../../lib/adapter.js');
 
 
 
@@ -38,8 +38,6 @@ console.log();
 log('Latest draft of Waterline adapter interface spec:');
 log('https://github.com/balderdashy/sails-docs/blob/master/adapter-specification.md');
 console.log();
-
-
 
 
 /**
