@@ -24,7 +24,8 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "elasticsearch": "~2.2.0"
+    "elasticsearch": "~2.2.0",
+    "underscore": "~1.6.0"
   },
   "devDependencies": {
     "waterline-adapter-tests": "git://github.com/balderdashy/waterline-adapter-tests.git#associations",
@@ -35,9 +36,7 @@
   "sailsAdapter": {
     "sailsVersion": "~0.10.0",
     "implements": [
-      "semantic",
-      "queryable",
-      "associations"
+      "semantic"
     ]
   }
 }
